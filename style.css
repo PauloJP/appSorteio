@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    grid: grid;
+    place-items: center;
+    background-color: rgba(60, 60, 60, 1);
+}
+div.generator-container{
+    text-align: center;
+
+}
+div.generator-container{
+   font-size: 128px;
+   color:rgba(255, 255, 255, 1);
+   font-weight: 400;
+}
+div.generator-container button{
+    font-size: 16px;
+    color:white;
+    border: 0;
+    outline: 0;
+    appearance: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.sort{
+    animation: sort 0.1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes sort{
+    to{
+        transform: translateX(-5px);
+    }
+    from{
+        transform: translateX(5px)
+
+    }
+
+}
