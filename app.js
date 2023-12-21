@@ -17,4 +17,4 @@ btn.onclick = () =>{
 }
 
 }
-window.onload = randomNumber(100, 1000)
+window.onload = randomNumber(200, 1000)
