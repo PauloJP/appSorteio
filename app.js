@@ -9,7 +9,7 @@ btn.onclick = () =>{
    animation = setInterval(() => {
     //gera um número aleatório no intervalode 0 a 1
     elementNumber.innerHTML = Math.floor(Math.random() * interval + 1)
-   }, 10)
+   }, 20)
    setTimeout(() =>{
     clearInterval(animation)
     btn.classList.toggle("sort")
@@ -17,4 +17,4 @@ btn.onclick = () =>{
 }
 
 }
-window.onload = randomNumber(100, 1000)
+window.onload = randomNumber(200, 1000)
